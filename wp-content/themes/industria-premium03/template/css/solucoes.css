@@ -1,0 +1,25 @@
+.wq-solucao_interna {
+    display: flex;
+    margin-top: 55px
+}
+
+.wq-solucao_interna figure.wq-atuacao_icone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    background-color: #ebebeb
+}
+
+.wq-solucao_interna figure.wq-atuacao_icone img {
+    width: initial
+}
+
+.wq-solucao_interna figure img {
+    display: block;
+    width: 100%
+}
+
+.wq-btn_whatsapp-invert:last-child {
+    margin-top: 25px
+}

@@ -1,0 +1,128 @@
+
+.wq-vendedores_01{
+	padding: 90px 0 70px;
+	color: #888888;
+}
+
+.wq-vendedores_01 .wq-titulo_1{
+	max-width: 530px;
+	margin-bottom: 35px;
+}
+
+.wq-vendedores_01 .wq-titulo_1 + p{
+	max-width: 840px;
+	margin:  0 auto 85px;
+}
+
+.wq-vendedores_01 .wq-box_3{margin-bottom: 30px;}
+
+
+.wq-consultor_box{
+	position: relative;
+}
+
+.wq-consultor_box figure img{
+	display: block;
+	width: 100%;
+}
+.wq-consultor_box div{
+	padding: 25px 20px;
+	background-color: #ebebeb;
+}
+.wq-consultor_box div h2{
+	line-height: 1;
+	font-size: 14px;
+	color: #2f4975;
+	margin-bottom: 22px;
+}
+.wq-consultor_box div p{
+	line-height: 1.4;
+	color: #888888;
+}
+
+.wq-consultor_contatos {margin-top: 30px;}
+.wq-consultor_contatos li{margin-bottom: 10px;}
+.wq-consultor_contatos li:last-child{margin-bottom: 0px;}
+.wq-consultor_contatos li a{
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	letter-spacing: 0.025em;
+}
+
+.wq-consultor_contatos li a img{
+	width: 25px;
+}
+.wq-consultor_contatos li a p{
+	width: calc(100% - 34px);
+	margin-left: 14px;
+	color: #2f4975;
+}
+.wq-consultor_contatos li a span{
+	font-weight: 700;
+	display: block;
+}
+
+
+
+.wq-03 {
+	background-color: #f5f5f5;
+	padding: 0px;
+}
+
+.wq-03 .wq-box_5 figure {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 45px;
+	height: 816px;
+}
+.wq-03 .wq-box_5 figure:after{
+	position: absolute;
+	display: block;
+	content: '';
+	width: 806px;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	mix-blend-mode: color;
+	background-color: #162e57;
+}
+.wq-03 .wq-box_5 figure img{
+	display: block;
+	filter: grayscale(1)brightness(.5);
+	height: 100%;
+}
+
+
+.wq-servicos_listagem{
+	padding: 75px 0px 35px;
+}
+
+.wq-servicos_listagem .wq-flex{margin-top: 110px;}
+.wq-servicos_listagem .wq-box_4{
+	margin-bottom: 50px;
+}
+
+.wq-servico_box img{
+	display: block;
+	margin: 0 auto 22px;
+	transition: all .4s ease-in-out;
+}
+
+.wq-servico_box:hover img{
+	transform: translateY(-10px);
+}
+
+.wq-servico_box h2{
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	color: #231f20;
+	margin: 0 auto;
+	max-width: 160px;
+	transition: all .35s ease;
+}
+.wq-servico_box:hover h2{
+	color: #ffbf00;
+}
